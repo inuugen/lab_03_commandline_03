@@ -86,26 +86,35 @@ b. go back to step 6
 
 Otherwise...
 
-Write the command(s) that you used to do this - as well as its output - below:
+Write the command(s) that you used to do this - as well as its output - below: ls 
 ----------
-
+Ivys-MacBook-Pro:~ ivy$ ls
+Applications            Downloads               Music                   food                    mtec1003
+Desktop                 Library                 Pictures                mtec1002-lab-03
+Documents               Movies                  Public                  mtec1002-lab-03.tar
+Ivys-MacBook-Pro:~ ivy$ mtec1002-lab-03/
+bash: mtec1002-lab-03/: is a directory
+Ivys-MacBook-Pro:~ ivy$ 
 
 
 ==========
-9.  What directories are in the mtec1002-lab-03 folder?
+9.  What directories are in the mtec1002-lab-03 folder? books logs web
 
-Write the command(s) that you used to determine this - as well as its output - below:
+Write the command(s) that you used to determine this - as well as its output - below: ls  
 ----------
-
-
+Ivys-MacBook-Pro:mtec1002-lab-03 ivy$ ls
+books	logs	web
+Ivys-MacBook-Pro:mtec1002-lab-03 ivy$ 
 
 ==========
 10.  Now... go back home.  Then change to the science-fiction directory using a relative path.  The directory is located in books... which is located in the mtec1002-lab-03 directory.  Verify you're in the right directory using pwd.
 
 Write the command(s) (including going home) that you used to do this below:
 ----------
-
-
+Ivys-MacBook-Pro:~ ivy$ cd mtec1002-lab-03/
+.DS_Store  books/     logs/      web/       
+Ivys-MacBook-Pro:~ ivy$ cd mtec1002-lab-03/books/science-fiction/
+Ivys-MacBook-Pro:science-fiction ivy$ 
 
 ==========
 11.  Write the files that are in the science fiction directory below.
@@ -113,13 +122,18 @@ Write the command(s) (including going home) that you used to do this below:
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
 
-
+Ivys-MacBook-Pro:science-fiction ivy$ ls
+pg84.txt        pg86.txt
+Ivys-MacBook-Pro:science-fiction ivy$ 
 
 ==========
 12.  Again, go back to your home directory.  Now... go to the science-fiction directory using an absolute path!  Verify that you're in the right directory using pwd.
 
 Write the command(s) that you used to do this below:
 ----------
+Ivys-MacBook-Pro:science-fiction ivy$ pwd
+/Users/ivy/mtec1002-lab-03/books/science-fiction
+Ivys-MacBook-Pro:science-fiction ivy$ 
 
 ==========
 OPTIONAL
